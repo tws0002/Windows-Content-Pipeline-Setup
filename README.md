@@ -12,3 +12,14 @@ Setup will assume that you have Maya 2015/2016/2017 installed and that tools wil
 4. Once installPipleline.cmd has run all dependences will have been setup and all packages and dependencies will have been installed.
 
 5. Open installAfanasy.cmd and make changes to the construct filepath to reflect internal locations
+
+
+installDrives.cmd -> run as regular user
+installPipeline.cmd -> run as administrator
+installAfanasy.cmd -> run as regular user
+
+*Additional requirements:
+Python 2.7 and below installed
+Connected to the network ( before running installPipeline.cmd/installAfanasy.cmd )
+User account setup for network drives completed
+
